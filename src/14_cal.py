@@ -35,7 +35,7 @@ currY = datetime.now().year
 currM = datetime.now().month
 
 ui = sys.argv
-
+#conditions
 if len(ui) > 1:
   if len(ui) == 2 and len(str(ui[1])) < 3:
     print(calendar.month(currY,int(ui[1])))
